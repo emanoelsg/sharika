@@ -1,0 +1,43 @@
+name: sharika
+description: "A new Flutter project."
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^3.13.0
+  cloud_firestore: ^5.6.8
+  firebase_auth: ^5.5.4
+  intl: ^0.20.2
+  cupertino_icons: ^1.0.8
+  bloc: ^9.0.0
+  flutter_bloc: ^9.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.3
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/icon.jpg"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/google_logo.jpg
+    - assets/images/banner_promocional.jpg
+    - assets/images/banner_promocional1.jpg
+    - assets/images/banner_promocional2.jpg
+    - assets/images/transferir.jpg
+    - assets/images/shopping.webp
+    - assets/images/notebook.webp
+    - assets/images/fone_de_bluetooth.webp
